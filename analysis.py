@@ -6,7 +6,7 @@ import os
 
 NAMES = ['\u6c88\u7956\u51e1', '\u9648\u96ef\u5a77', '\u9ebb\u7440\u8c0c', '\u51af\u7085', '\u9a6c\u6653\u6db5', '\u9676\u5b9b\u742a']
 
-out = open('output.csv', 'w', encoding='utf-8')
+out = open('output.csv', 'w', encoding='utf-8-sig', newline='\r\n')
 out.write(','.join(['Time']+NAMES))
 out.write('\n')
 filenames = [i for i in os.listdir() if re.match('crawl-([0-9]+).html', i)]
