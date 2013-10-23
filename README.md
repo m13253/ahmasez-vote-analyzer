@@ -14,7 +14,7 @@ This program can only analyze vote on ahmasez.cn, not any other sites.
 
 This program gets vote result to make a chart and DOES NOT affect vote.
 
-本程序获取投票结果， **不会改变投票结果** 。得到的数据可以用来制表。
+本程序获取投票结果，**不会改变投票结果**。得到的数据可以用来制表。
 
 Setup 安装
 ----------
@@ -36,20 +36,20 @@ Usage 用法
 
 `crawl.sh` fetches the vote result every ten minutes. While `analysis.py` analysises these results and output a `csv` file.
 
-`crawl.sh` 每十分钟获取一次投票结果，而 `analysis.py` 分析投票结果并导出 `csv` 文件。
+`crawl.sh`每十分钟获取一次投票结果，而`analysis.py`分析投票结果并导出`csv`文件。
 
 `csv` file can be imported into Microsoft Office Excel or LibreOffice Calc.
 
-`csv` 文件可以导入到 Microsoft Office Excel 或 LibreOffice Calc。
+`csv`文件可以导入到 Microsoft Office Excel 或 LibreOffice Calc。
 
 License 版权许可
 ----------------
 
-This program is released under General Public License 3.0. No one is permitted to use this program comercially.
+This program is released under General Public License 3.0. No one is permitted to use this program commercially.
 
 本程序遵循通用公共许可证3.0发布。谢绝用作商业用途。
 
 This program comes with absolutely NO WARRANTY. Abusing this program might cause lossless. Please be responsible for all you do on your own.
 
-本程序 **不提供任何担保** ，不当地使用本程序可能造成损害，请对您所做一切负责。
+本程序**不提供任何担保**，不当地使用本程序可能造成损害，请对您所做一切负责。
 
