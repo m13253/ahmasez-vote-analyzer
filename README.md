@@ -34,13 +34,13 @@ Dependencies:
 Usage 用法
 ----------
 
-`crawl.sh` fetches the vote result every ten minutes. While `analysis.py` analysises these results and output a `csv` file.
+`crawl.sh` fetches the vote result every ten minutes. While `analysis.py` analysises these results and output a `output.csv` file.
 
-`crawl.sh`每十分钟获取一次投票结果，而`analysis.py`分析投票结果并导出`csv`文件。
+`crawl.sh`每十分钟获取一次投票结果，而`analysis.py`分析投票结果并导出`output.csv`文件。
 
-`csv` file can be imported into Microsoft Office Excel or LibreOffice Calc.
+`output.csv` file can be imported into Microsoft Office Excel or LibreOffice Calc.
 
-`csv`文件可以导入到 Microsoft Office Excel 或 LibreOffice Calc。
+`output.csv`文件可以导入到 Microsoft Office Excel 或 LibreOffice Calc。
 
 License 版权许可
 ----------------
