@@ -12,11 +12,14 @@ out.write('\n')
 filenames = [i for i in os.listdir() if re.match('crawl-([0-9]+).html', i)]
 filenames.sort()
 for filename in filenames:
-    out.write(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(re.findall('crawl-([0-9]+).html', filename)[0]))))
-    out.write(',')
-    with open(filename, 'r', encoding='gbk') as f:
-        s = f.read()
-        sep = re.findall('<font color=#FF0000>([0-9]+)</font>', s)
-        out.write(','.join(sep))
+    try:
+        out.write(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(re.findall('crawl-([0-9]+).html', filename)[0]))))
+        out.write(',')
+        with open(filename, 'r', encoding='gbk') as f:
+            s = f.read()
+            sep = re.findall('<font color=#FF0000>([0-9]+)</font>', s)
+            out.write(','.join(sep))
+    except Exception as e:
+        print('Error: %s' % e)
     out.write('\n')
 print('Output has been written to output.csv')
