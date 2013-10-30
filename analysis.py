@@ -9,7 +9,7 @@ NAMES = ['\u6c88\u7956\u51e1', '\u9648\u96ef\u5a77', '\u9ebb\u7440\u8c0c', '\u51
 out = open('output.csv', 'w', encoding='utf-8-sig', newline='\r\n')
 out.write(','.join(['Time']+NAMES))
 out.write('\n')
-filenames = [i for i in os.listdir() if re.match('crawl-([0-9]+).html', i)]
+filenames = [i for i in os.listdir() if re.match('crawl-([0-9]+).html$', i)]
 filenames.sort()
 for filename in filenames:
     try:
