@@ -42,6 +42,24 @@ Usage 用法
 
 `output.csv`文件可以导入到 Microsoft Office Excel 或 LibreOffice Calc。
 
+Forum Thread 帖子
+-----------------
+
+See the forum thread here:
+
+在此处看帖子：
+
+[http://tieba.baidu.com/p/2668066997](http://tieba.baidu.com/p/2668066997 "用统计学方法分析校助刷票事件")
+
+Chart 图表
+------------
+
+![vote result](bonus/chart.png)
+
+For the `csv` file, see [bonus/output.csv](bonus/output.csv) .
+
+移步 [bonus/output.csv](bonus/output.csv) 来查看`csv`表格。
+
 License 版权许可
 ----------------
 
