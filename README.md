@@ -54,6 +54,8 @@ See the forum thread here:
 Chart 图表
 ------------
 
+第三届学生校长助理投票数量曲线图
+
 ![vote result](bonus/chart.png)
 
 For the `csv` file, see [bonus/output.csv](bonus/output.csv) .
